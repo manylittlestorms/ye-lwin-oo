@@ -14,8 +14,8 @@ import 'package:yelwinoo/presentation/route/routes.dart';
 /// constant strings are prefixed with [ks]
 const String ksFontFamily = "ShantellSans";
 
-const String ksFlutterDeveloperAnd = "Flutter Developer &";
-const String ksAiMlEnthusiast = "AI/ML Enthusiast";
+const String ksFlutterDeveloperAnd = "Sogna. Crea. Cambia.";
+const String ksAiMlEnthusiast = "Essence";
 const String ksAiEnthusiast = "ai enthusiast";
 const String ksTechNerd = "a  tech  nerd";
 const String ksFlutterDev = "flutter  dev";
@@ -23,12 +23,10 @@ const String coffeeAddict = "coffee addict";
 const String ksIntrovert = "an introvert";
 const String ksIm = "I'm";
 const String ksIntro = """
-  Hi, I'm Ye Lwin Oo!
-    - a passionate mobile developer
-    - a CDM student from UCSM
-    - an avid reader
+  Un'esperienza digitale consapevole per
+  guidare l'utente verso la riscoperta di sé.
   """;
-const String ksSeeMyWork = "See my work";
+const String ksSeeMyWork = "Scarica ora";
 const String ksBrowseProjects = "Browse My Projects";
 const String ksWhatElse =
     "What else? I have freelanced on several side projects.";
@@ -39,8 +37,9 @@ const String ksExperience = "My Experience";
 const String ksCertificates = "Certificates";
 const String ksProject = "My Projects";
 const String ksViewProject = "View Project";
-const String ksCraftedWithLove = "Crafted with Love";
-const String ksRecentProjects = "Here are a selection of my recent projects";
+const String ksCraftedWithLove = "Come nasce Essence?";
+const String ksRecentProjects =
+    "Essence nasce ufficialmente nel 2023 come idea di Andrea Tempestini, un ragazzo ventitreenne di Gallarate con una grande visione.\n\nIl suo sogno era quello di creare un'app essenziale che integrasse diverse funzionalità per semplificare la vita degli utenti senza la necessità di dover ricorrere ad app terze.\n\nEssence è nata dalla ferma volontà di creare un'app semplice, bella ed intuitiva che potesse aiutare gli utenti a migliorarsi attraverso una gestione consapevole della propria routine quotidiana.";
 const String ksCraftedProjects =
     'Here are some of my carefully crafted projects';
 const String ksContact = "Contact Me";
@@ -128,8 +127,7 @@ const String ksAwardsAndActivities = "Awards & Activities";
 const String ksAward = "Award I've won";
 const String ksAwardName = "Design Award by WIT (Web Innovative Talent Award)";
 const String ksAwardLink = "https://witaward.com/result/2020";
-const String ksAwardDetails =
-    """
+const String ksAwardDetails = """
 - The biggest web development contest in Myanmar ( collaboration with Japan )
 - This project aims for foreigners and Myanmar citizens who are enthusiastic about Myanmar culture, cuisine, handicrafts and who want to pay a visit to famous places in Myanmar and who want to enhance their knowledge about various ethnic groups in Myanmar.
 """;
@@ -188,7 +186,7 @@ final List<Experience> ksExperiences = [
         ● Vouchers, Deals & Rewards
         ● Transaction history
         """,
-        "Maintain AYA Pay Partner App used by tens of thousands of users", 
+      "Maintain AYA Pay Partner App used by tens of thousands of users",
     ],
     startDate: DateTime(2022, 9),
     endDate: DateTime.now(),

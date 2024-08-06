@@ -30,7 +30,7 @@ class TucoYe extends StatelessWidget {
   Widget build(BuildContext context) {
     return Layout(
       child: MaterialApp(
-        title: 'yelwinoo',
+        title: 'Essence',
         scrollBehavior: AppScrollBehavior(),
         debugShowCheckedModeBanner: false,
         theme: context.theme(),

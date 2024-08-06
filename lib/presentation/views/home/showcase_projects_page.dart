@@ -92,17 +92,6 @@ class _ShowcaseProjectsPageState extends State<ShowcaseProjectsPage>
       craftedWithText(),
       recentProjectsText(),
       verticalSpaceMedium,
-      ...ksShowcaseProjects
-          .sublist(0, 3)
-          .map(
-            (project) => <Widget>[
-              projectImage(project),
-              verticalSpaceMedium,
-              projectDescriptionText(project),
-              verticalSpaceLarge,
-            ].addColumn(mainAxisSize: MainAxisSize.min),
-          )
-          .toList(),
     ].addColumn(
       mainAxisSize: MainAxisSize.min,
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -111,14 +100,7 @@ class _ShowcaseProjectsPageState extends State<ShowcaseProjectsPage>
 
   Widget desktopVersion() {
     return <Widget>[
-      <Widget>[
-        ...ksShowcaseProjects
-            .sublist(0, 3)
-            .map(
-              (project) => projectImage(project),
-            )
-            .toList(),
-      ]
+      <Widget>[]
           .addColumn(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           )
@@ -138,12 +120,6 @@ class _ShowcaseProjectsPageState extends State<ShowcaseProjectsPage>
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
         ),
-        ...ksShowcaseProjects
-            .sublist(0, 3)
-            .map(
-              (project) => projectDescriptionText(project),
-            )
-            .toList(),
       ]
           .addColumn(
             crossAxisAlignment: CrossAxisAlignment.start,
